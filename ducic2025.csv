@@ -5,10 +5,10 @@ hours
 1	2	3	4	5	6	7
 
 people
-51	boal	tt.v	2
+51	rojo	tt.v	2
 52	boal	tt.v	2
 53	rojo	tt.v	2
-54	rojo	tt.v	2
+54	boal	tt.v	2
 61	rojo	tt.v	2
 62	boal	tt.v	2
 63	boal	tt.v	2
@@ -22,15 +22,15 @@ people
 83	boal	tt.v	2
 84	boal	tt.v	2
 51	brsla	srp.p	1,1,1,1,1
-52	stama	srp.p	1,1,1,1,1
-53	stama	srp.p	1,1,1,1,1
+52	brsla	srp.p	1,1,1,1,1
+53	rejo	srp.p	1,1,1,1,1
 54	hata	srp.p	1,1,1,1,1
 61	brsla	srp.p	1,1,1,1
 62	stama	srp.p	1,1,1,1
-63	brsla	srp.p	1,1,1,1
+63	stama	srp.p	1,1,1,1
 64	stama	srp.p	1,1,1,1
 71	hata	srp.p	1,1,1,1
-72	rejo	srp.p	1,1,1,1
+72	stama	srp.p	1,1,1,1
 73	stama	srp.p	1,1,1,1
 74	rejo	srp.p	1,1,1,1
 81	hata	srp.p	1,1,1,1
@@ -249,7 +249,6 @@ people
 83	bosne	cos.v	1
 84	kove	cos.v	1
 
-
 51,52	pone	ver.v	1
 53	pone	ver.v	1
 54	pone	ver.v	1
@@ -307,6 +306,40 @@ mami
 
 cardinality_total
 16
+
+cardinality
+arsa_2hole1
+boal_2hole1
+bosne_2hole1
+brsla_2hole1
+busne_2hole1
+cvone_2hole1
+hata_2hole1
+joma_2hole1
+kove_2hole1
+kusa_2hole1
+mami_2hole1
+mani_2hole1
+miiv_2hole1
+munje_2hole1
+neol_2hole1
+nial_2hole1
+opje_2hole1
+pone_2hole1
+rada_2hole1
+rejo_2hole1
+rojo_2hole1
+somi_2hole1
+stama_2hole1
+steda_2hole1
+stomi_2hole1
+trima_2hole1
+trina_2hole1
+vojo_2hole1
+zijo_2hole1
+zita_2hole1
+
+2
 
 same_time
 busne_51_fra.p.1'	trina_51_rus.p.1'
@@ -1277,5 +1310,74 @@ brsla_pon_2
 brsla_uto_2
 brsla_sre_2
 brsla_cet_2
-brspla_pet_2
-
+brsla_pet_2
+// 74
+-arsa_74_geo.p.1'_pon_1
+-arsa_74_geo.p.1'_uto_1
+-arsa_74_geo.p.1'_sre_1
+-arsa_74_geo.p.1'_cet_1
+-arsa_74_geo.p.1'_pet_1
+-arsa_74_geo.p.1'_pon_5
+-arsa_74_geo.p.1'_uto_5
+-arsa_74_geo.p.1'_sre_5
+-arsa_74_geo.p.1'_cet_5
+-arsa_74_geo.p.1'_pet_5
+-arsa_74_geo.p.1'_pon_6
+-arsa_74_geo.p.1'_uto_6
+-arsa_74_geo.p.1'_sre_6
+-arsa_74_geo.p.1'_cet_6
+-arsa_74_geo.p.1'_pet_6
+-arsa_74_geo.p.2'_pon_1
+-arsa_74_geo.p.2'_uto_1
+-arsa_74_geo.p.2'_sre_1
+-arsa_74_geo.p.2'_cet_1
+-arsa_74_geo.p.2'_pet_1
+-arsa_74_geo.p.2'_pon_5
+-arsa_74_geo.p.2'_uto_5
+-arsa_74_geo.p.2'_sre_5
+-arsa_74_geo.p.2'_cet_5
+-arsa_74_geo.p.2'_pet_5
+-arsa_74_geo.p.2'_pon_6
+-arsa_74_geo.p.2'_uto_6
+-arsa_74_geo.p.2'_sre_6
+-arsa_74_geo.p.2'_cet_6
+-arsa_74_geo.p.2'_pet_6
+// ne mogu biologija, istorija i geografija u istom danu
+-kusa_74_bio.p.1'_pon -arsa_74_geo.p.1'_pon -kove_74_ist.p.1'_pon
+-kusa_74_bio.p.1'_uto -arsa_74_geo.p.1'_uto -kove_74_ist.p.1'_uto
+-kusa_74_bio.p.2'_cet -arsa_74_geo.p.2'_cet -kove_74_ist.p.2'_cet
+-kusa_74_bio.p.2'_pet -arsa_74_geo.p.2'_pet -kove_74_ist.p.2'_pet
+kove_74_ist.p.1'_uto
+kove_74_ist.p.2'_cet
+-74_pon_1
+-74_pet_7
+// rupe
+arsa_hole1_pon arsa_hole1_uto arsa_hole1_sre arsa_hole1_cet arsa_hole1_pet
+// boal_hole1_pon boal_hole1_uto boal_hole1_sre boal_hole1_cet boal_hole1_pet
+bosne_hole1_pon bosne_hole1_uto bosne_hole1_sre bosne_hole1_cet bosne_hole1_pet
+brsla_hole1_pon brsla_hole1_uto brsla_hole1_sre brsla_hole1_cet brsla_hole1_pet
+busne_hole1_pon busne_hole1_uto busne_hole1_sre busne_hole1_cet busne_hole1_pet
+cvone_hole1_pon cvone_hole1_uto cvone_hole1_sre cvone_hole1_cet cvone_hole1_pet
+hata_hole1_pon hata_hole1_uto hata_hole1_sre hata_hole1_cet hata_hole1_pet
+// joma_hole1_pon joma_hole1_uto joma_hole1_sre joma_hole1_cet joma_hole1_pet
+kove_hole1_pon kove_hole1_uto kove_hole1_sre kove_hole1_cet kove_hole1_pet
+kusa_hole1_pon kusa_hole1_uto kusa_hole1_sre kusa_hole1_cet kusa_hole1_pet
+// mami_hole1_pon mami_hole1_uto mami_hole1_sre mami_hole1_cet mami_hole1_pet
+kusa_hole1_pon kusa_hole1_uto kusa_hole1_sre kusa_hole1_cet kusa_hole1_pet
+// --- miiv_hole1_pon miiv_hole1_uto miiv_hole1_sre miiv_hole1_cet miiv_hole1_pet
+munje_hole1_pon munje_hole1_uto munje_hole1_sre munje_hole1_cet munje_hole1_pet
+neol_hole1_pon neol_hole1_uto neol_hole1_sre neol_hole1_cet neol_hole1_pet
+// --- nial_hole1_pon nial_hole1_uto nial_hole1_sre nial_hole1_cet nial_hole1_pet
+pone_hole1_pon pone_hole1_uto pone_hole1_sre pone_hole1_cet pone_hole1_pet
+rada_hole1_pon rada_hole1_uto rada_hole1_sre rada_hole1_cet rada_hole1_pet
+// rejo_hole1_pon rejo_hole1_uto rejo_hole1_sre rejo_hole1_cet rejo_hole1_pet
+rojo_hole1_pon rojo_hole1_uto rojo_hole1_sre rojo_hole1_cet rojo_hole1_pet
+somi_hole1_pon somi_hole1_uto somi_hole1_sre somi_hole1_cet somi_hole1_pet
+stama_hole1_pon stama_hole1_uto stama_hole1_sre stama_hole1_cet stama_hole1_pet
+steda_hole1_pon steda_hole1_uto steda_hole1_sre steda_hole1_cet steda_hole1_pet
+stomi_hole1_pon stomi_hole1_uto stomi_hole1_sre stomi_hole1_cet stomi_hole1_pet
+// trima_hole1_pon trima_hole1_uto trima_hole1_sre trima_hole1_cet trima_hole1_pet
+trina_hole1_pon trina_hole1_uto trina_hole1_sre trina_hole1_cet trina_hole1_pet
+vojo_hole1_pon vojo_hole1_uto vojo_hole1_sre vojo_hole1_cet vojo_hole1_pet
+zijo_hole1_pon zijo_hole1_uto zijo_hole1_sre zijo_hole1_cet zijo_hole1_pet
+zita_hole1_pon zita_hole1_uto zita_hole1_sre zita_hole1_cet zita_hole1_pet
