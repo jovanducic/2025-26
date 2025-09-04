@@ -1,0 +1,132 @@
+p.version {
+    text-align: center;
+    margin: 0pt;
+    padding: 0pt;
+}
+
+h2 {
+    text-align: center;
+    margin: 3pt;
+}
+
+body {
+    width : 950px; 
+    font-family : Arial;
+    margin-top : 0pt;
+    font-size : 10pt;
+}
+
+a:link{
+        text-decoration : none;
+        color : #444444; 
+}
+
+a:visited{
+        text-decoration : none;
+        color : #666666; 
+}
+
+
+a:hover   {text-decoration: underline;}
+
+hr
+{
+  border : 0;
+  background-color : E4C5D2;
+  color            : E4C5D2;
+  height           : 1px;
+  width            : 100%;
+}
+
+table.evenodd {
+        border-collapse : colapse;
+        border : 1px #A5D5D5 dashed;
+}
+
+tr.even, td.even {
+        text-align : center;
+        background : #E8E8E8;
+        font-size : 10pt;
+        padding : 0px;
+}
+
+tr.odd, td.odd{
+        text-align : center;
+        font-size : 10pt;
+        padding : 0px;
+}
+
+span.timetable_predavanja {
+	font-weight : bold;
+	font-size : 10pt;
+}
+span.timetable_vezbe {
+	font-style : italic;
+	font-size : 10pt;
+	color : BB3333;
+}
+
+span.timetable_praktikum {
+	font-size : 10pt;
+	color : 333399;
+}
+
+span.timetable_seminar {
+	font-size : 10pt;
+	color : 339933;
+}
+
+
+table.timetable {
+	border-collapse : collapse
+}
+
+th.timetable {
+	background : #FF3333;
+	border : 1px solid white;
+	font-size : 10pt;
+        text-align: center;
+}
+
+td.timetable { 
+	font-size : 9pt; 
+	width : 120px; 
+	height : 60px; 
+	vertical-align : middle; 
+	text-align : center; 
+	background : #ffffff;
+	border : 1px solid #FF3333;
+	padding : 5px;
+}
+
+td.heading {
+	font-size : 10pt;
+	background : #FF3333;
+}
+
+.smena13 {	
+	font-size : 9pt; 
+	width : 120px; 
+	height : 50px; 
+	vertical-align : middle; 
+	text-align : center; 
+	background : #ffffff;
+	border : 1px solid #FF3333;
+	padding : 5px;
+	color : BB3333;
+}
+
+.smena24 {
+	font-size : 9pt; 
+	width : 120px; 
+	height : 50px; 
+	vertical-align : middle; 
+	text-align : center; 
+	background : #ffffff;
+	border : 1px solid #FF3333;
+	padding : 5px;
+	color : 333399;
+}
+
+
+
