@@ -223,7 +223,7 @@ people
 71,73	munje	um.v	1
 72,74	munje	um.v	1
 81,84	munje	um.v	1
-82,83	munje	um.v	1
+82,83	mani	um.v	1
 61,62,64	nial	zv.v	1
 81,82	miiv	mzs.v	1
 83,84	miiv	mzs.v	1
@@ -248,30 +248,27 @@ people
 82	hata	cos.v	1
 83	bosne	cos.v	1
 84	kove	cos.v	1
-
-51,52	pone	ver.v	1
-53	pone	ver.v	1
-54	pone	ver.v	1
-61,63	pone	ver.v	1
-62,64	pone	ver.v	1
-71	pone	ver.v	1
+52,53	pone	ver.v	1
+51,54	pone	ver.v	1
+63,64	pone	ver.v	1
+61	pone	ver.v	1
+62	pone	ver.v	1
+71,73	pone	ver.v	1
 72	pone	ver.v	1
-73,74	pone	ver.v	1
-81,84	pone	ver.v	1
-82,83	pone	ver.v	1
-61,64	rejo	gra.v	1
-62,63	rejo	gra.v	1
-51,52	zita	gra.v	1
-53,54	zita	gra.v	1
-71,74	zita	gra.v	1
-72,73	zita	gra.v	1
+74	pone	ver.v	1
+82,84	pone	ver.v	1
+83	pone	ver.v	1
+51,54	rejo	gra.v	1
+52,53	zita	gra.v	1
+61,62	rejo	gra.v	1
+63,64	zita	gra.v	1
+71,73	zita	gra.v	1
+72,74	rejo	gra.v	1
 81,83	rejo	gra.v	1
-82,84	rejo	gra.v	1
+82,84	zita	gra.v	1
 
 distinct
 arsa	joma
-kove	trima
-mani	munje
 
 cardinality_alltime
 kusa
@@ -287,7 +284,7 @@ cvone
 
 2
 
-cardinality_alltime
+//cardinality_alltime
 stama
 rejo
 brsla
@@ -333,7 +330,7 @@ cardinality
 54_cet_7
 54_pet_7
 
-5
+6
 
 cardinality_total
 16
@@ -370,7 +367,288 @@ vojo_2hole1
 zijo_2hole1
 zita_2hole1
 
+3
+
+// Hata
+cardinality
+hata_pon_6
+hata_uto_6
+hata_sre_6
+hata_cet_6
+hata_pet_6
+hata_pon_7
+hata_uto_7
+hata_sre_7
+hata_cet_7
+hata_pet_7
+
+0
+
+// Stama
+cardinality
+stama_pon_1
+stama_uto_1
+stama_sre_1
+stama_cet_1
+stama_pet_1
+
 2
+
+// Kusa
+cardinality
+kusa_duration_pon_6
+kusa_duration_uto_6
+kusa_duration_sre_6
+kusa_duration_cet_6
+kusa_duration_pet_6
+
+0
+
+// Kove
+cardinality
+kove_duration_pon_6
+kove_duration_uto_6
+kove_duration_sre_6
+kove_duration_cet_6
+kove_duration_pet_6
+
+2
+
+// Opje
+cardinality
+opje_duration_pon_6
+opje_duration_uto_6
+opje_duration_sre_6
+opje_duration_cet_6
+opje_duration_pet_6
+
+1
+
+// Cvone
+cardinality
+cvone_duration_pon_6
+cvone_duration_uto_6
+cvone_duration_sre_6
+cvone_duration_cet_6
+cvone_duration_pet_6
+
+2
+
+// Zijo
+cardinality
+zijo_duration_pon_6
+zijo_duration_uto_6
+zijo_duration_sre_6
+zijo_duration_cet_6
+zijo_duration_pet_6
+
+1
+
+// Stomi
+cardinality
+stomi_duration_pon_6
+stomi_duration_uto_6
+stomi_duration_sre_6
+stomi_duration_cet_6
+stomi_duration_pet_6
+
+1
+
+// Vojo
+cardinality
+vojo_pon_6
+vojo_uto_6
+vojo_sre_6
+vojo_cet_6
+vojo_pet_6
+
+1
+
+
+// Neol
+cardinality
+neol_duration_pon_6
+neol_duration_uto_6
+neol_duration_sre_6
+neol_duration_cet_6
+neol_duration_pet_6
+
+2
+
+cardinality
+neol_pon_7
+neol_uto_7
+neol_sre_7
+neol_cet_7
+neol_pet_7
+
+2
+
+// Somi
+cardinality
+somi_duration_pon_6
+somi_duration_uto_6
+somi_duration_sre_6
+somi_duration_cet_6
+somi_duration_pet_6
+
+3
+
+
+cardinality
+arsa_duration_pon_6
+arsa_duration_uto_6
+arsa_duration_sre_6
+arsa_duration_cet_6
+arsa_duration_pet_6
+boal_duration_pon_6
+boal_duration_uto_6
+boal_duration_sre_6
+boal_duration_cet_6
+boal_duration_pet_6
+bosne_duration_pon_6
+bosne_duration_uto_6
+bosne_duration_sre_6
+bosne_duration_cet_6
+bosne_duration_pet_6
+brsla_duration_pon_6
+brsla_duration_uto_6
+brsla_duration_sre_6
+brsla_duration_cet_6
+brsla_duration_pet_6
+busne_duration_pon_6
+busne_duration_uto_6
+busne_duration_sre_6
+busne_duration_cet_6
+busne_duration_pet_6
+cvone_duration_pon_6
+cvone_duration_uto_6
+cvone_duration_sre_6
+cvone_duration_cet_6
+cvone_duration_pet_6
+hata_duration_pon_6
+hata_duration_uto_6
+hata_duration_sre_6
+hata_duration_cet_6
+hata_duration_pet_6
+joma_duration_pon_6
+joma_duration_uto_6
+joma_duration_sre_6
+joma_duration_cet_6
+joma_duration_pet_6
+kove_duration_pon_6
+kove_duration_uto_6
+kove_duration_sre_6
+kove_duration_cet_6
+kove_duration_pet_6
+kusa_duration_pon_6
+kusa_duration_uto_6
+kusa_duration_sre_6
+kusa_duration_cet_6
+kusa_duration_pet_6
+mami_duration_pon_6
+mami_duration_uto_6
+mami_duration_sre_6
+mami_duration_cet_6
+mami_duration_pet_6
+mani_duration_pon_6
+mani_duration_uto_6
+mani_duration_sre_6
+mani_duration_cet_6
+mani_duration_pet_6
+miiv_duration_pon_6
+miiv_duration_uto_6
+miiv_duration_sre_6
+miiv_duration_cet_6
+miiv_duration_pet_6
+neol_duration_pon_6
+neol_duration_uto_6
+neol_duration_sre_6
+neol_duration_cet_6
+neol_duration_pet_6
+nial_duration_pon_6
+nial_duration_uto_6
+nial_duration_sre_6
+nial_duration_cet_6
+nial_duration_pet_6
+opje_duration_pon_6
+opje_duration_uto_6
+opje_duration_sre_6
+opje_duration_cet_6
+opje_duration_pet_6
+pone_duration_pon_6
+pone_duration_uto_6
+pone_duration_sre_6
+pone_duration_cet_6
+pone_duration_pet_6
+rada_duration_pon_6
+rada_duration_uto_6
+rada_duration_sre_6
+rada_duration_cet_6
+rada_duration_pet_6
+rejo_duration_pon_6
+rejo_duration_uto_6
+rejo_duration_sre_6
+rejo_duration_cet_6
+rejo_duration_pet_6
+rojo_duration_pon_6
+rojo_duration_uto_6
+rojo_duration_sre_6
+rojo_duration_cet_6
+rojo_duration_pet_6
+somi_duration_pon_6
+somi_duration_uto_6
+somi_duration_sre_6
+somi_duration_cet_6
+somi_duration_pet_6
+stama_duration_pon_6
+stama_duration_uto_6
+stama_duration_sre_6
+stama_duration_cet_6
+stama_duration_pet_6
+steda_duration_pon_6
+steda_duration_uto_6
+steda_duration_sre_6
+steda_duration_cet_6
+steda_duration_pet_6
+stomi_duration_pon_6
+stomi_duration_uto_6
+stomi_duration_sre_6
+stomi_duration_cet_6
+stomi_duration_pet_6
+trima_duration_pon_6
+trima_duration_uto_6
+trima_duration_sre_6
+trima_duration_cet_6
+trima_duration_pet_6
+trina_duration_pon_6
+trina_duration_uto_6
+trina_duration_sre_6
+trina_duration_cet_6
+trina_duration_pet_6
+vojo_duration_pon_6
+vojo_duration_uto_6
+vojo_duration_sre_6
+vojo_duration_cet_6
+vojo_duration_pet_6
+zijo_duration_pon_6
+zijo_duration_uto_6
+zijo_duration_sre_6
+zijo_duration_cet_6
+zijo_duration_pet_6
+zita_duration_pon_6
+zita_duration_uto_6
+zita_duration_sre_6
+zita_duration_cet_6
+zita_duration_pet_6
+munje_duration_pon_6
+munje_duration_uto_6
+munje_duration_sre_6
+munje_duration_cet_6
+munje_duration_pet_6
+
+43
+
 
 same_time
 busne_51_fra.p.1'	trina_51_rus.p.1'
@@ -413,16 +691,41 @@ rada_81_fzc.v.3'	steda_82_fzc.v.3'
 rada_83_fzc.v.1'	steda_84_fzc.v.1'
 rada_83_fzc.v.2'	steda_84_fzc.v.2'
 rada_83_fzc.v.3'	steda_84_fzc.v.3'
+pone_51_ver.v.1'	rejo_51_gra.v.1'
+pone_52_ver.v.1'	rejo_52_gra.v.1'
+pone_61_ver.v.1'	rejo_61_gra.v.1'
+pone_63_ver.v.1'	zita_63_gra.v.1'
+pone_71_ver.v.1'	zita_71_gra.v.1'
+pone_72_ver.v.1'	zita_72_gra.v.1'
+pone_83_ver.v.1'	rejo_83_gra.v.1'
+pone_82_ver.v.1'	zita_82_gra.v.1'
+
 
 
 additional
 // gradjansko verska
-//
+pone_61_ver.v.1'_pon_1 pone_61_ver.v.1'_uto_1 pone_61_ver.v.1'_sre_1 pone_61_ver.v.1'_pon_7 pone_61_ver.v.1'_uto_7 pone_61_ver.v.1'_sre_7
+pone_62_ver.v.1'_pon_1 pone_62_ver.v.1'_uto_1 pone_62_ver.v.1'_sre_1 pone_62_ver.v.1'_pon_7 pone_62_ver.v.1'_uto_7 pone_62_ver.v.1'_sre_7
+pone_72_ver.v.1'_pon_1 pone_72_ver.v.1'_uto_1 pone_72_ver.v.1'_sre_1 pone_72_ver.v.1'_pon_7 pone_72_ver.v.1'_uto_7 pone_72_ver.v.1'_sre_7
+pone_74_ver.v.1'_pon_1 pone_74_ver.v.1'_uto_1 pone_74_ver.v.1'_sre_1 pone_74_ver.v.1'_pon_7 pone_74_ver.v.1'_uto_7 pone_74_ver.v.1'_sre_7
+pone_83_ver.v.1'_pon_1 pone_83_ver.v.1'_uto_1 pone_83_ver.v.1'_sre_1 pone_83_ver.v.1'_pon_7 pone_83_ver.v.1'_uto_7 pone_83_ver.v.1'_sre_7
+pone_83_ver.v.1'_pon_1
+pone_72_ver.v.1'_uto_1
+pone_61_ver.v.1'_sre_1
+pone_62_ver.v.1'_pon_7
+pone_74_ver.v.1'_uto_7
+-81_cet_7
+-pone_pon_2
+-pone_pon_3
+-pone_pon_4
+-pone_pon_5
+-pone_pon_6
+pone_sre_2
 // francuski, ruski
-busne_51_fra.p.1_pon_1
-busne_51_fra.p.2_sre_1
-busne_53_fra.p.1_uto_1
-busne_53_fra.p.2_pet_1
+busne_53_fra.p.1_pon_1
+busne_53_fra.p.2_sre_1
+busne_51_fra.p.1_sre_6
+busne_51_fra.p.2_pet_1
 busne_52_fra.p.1_pon_6
 busne_52_fra.p.2_cet_6
 busne_54_fra.p.1_uto_6
@@ -430,6 +733,309 @@ busne_54_fra.p.2_cet_7
 -52_pon_7
 -52_cet_7
 -54_uto_7
+-51_sre_7
+// prisustvo u skoli
+51_pon_2
+51_uto_2
+51_sre_2
+51_cet_2
+51_pet_2
+52_pon_2
+52_uto_2
+52_sre_2
+52_cet_2
+52_pet_2
+53_pon_2
+53_uto_2
+53_sre_2
+53_cet_2
+53_pet_2
+54_pon_2
+54_uto_2
+54_sre_2
+54_cet_2
+54_pet_2
+61_pon_2
+61_uto_2
+61_sre_2
+61_cet_2
+61_pet_2
+62_pon_2
+62_uto_2
+62_sre_2
+62_cet_2
+62_pet_2
+63_pon_2
+63_uto_2
+63_sre_2
+63_cet_2
+63_pet_2
+64_pon_2
+64_uto_2
+64_sre_2
+64_cet_2
+64_pet_2
+71_pon_2
+71_uto_2
+71_sre_2
+71_cet_2
+71_pet_2
+72_pon_2
+72_uto_2
+72_sre_2
+72_cet_2
+72_pet_2
+73_pon_2
+73_uto_2
+73_sre_2
+73_cet_2
+73_pet_2
+74_pon_2
+74_uto_2
+74_sre_2
+74_cet_2
+74_pet_2
+81_pon_2
+81_uto_2
+81_sre_2
+81_cet_2
+81_pet_2
+82_pon_2
+82_uto_2
+82_sre_2
+82_cet_2
+82_pet_2
+83_pon_2
+83_uto_2
+83_sre_2
+83_cet_2
+83_pet_2
+84_pon_2
+84_uto_2
+84_sre_2
+84_cet_2
+84_pet_2
+51_pon_5
+51_uto_5
+51_sre_5
+51_cet_5
+51_pet_5
+52_pon_5
+52_uto_5
+52_sre_5
+52_cet_5
+52_pet_5
+53_pon_5
+53_uto_5
+53_sre_5
+53_cet_5
+53_pet_5
+54_pon_5
+54_uto_5
+54_sre_5
+54_cet_5
+54_pet_6
+61_pon_6
+61_uto_6
+61_sre_6
+61_cet_6
+61_pet_6
+62_pon_6
+62_uto_6
+62_sre_6
+62_cet_6
+62_pet_6
+63_pon_6
+63_uto_6
+63_sre_6
+63_cet_6
+63_pet_6
+64_pon_6
+64_uto_6
+64_sre_6
+64_cet_6
+64_pet_6
+71_pon_6
+71_uto_6
+71_sre_6
+71_cet_6
+71_pet_6
+72_pon_6
+72_uto_6
+72_sre_6
+72_cet_6
+72_pet_6
+73_pon_6
+73_uto_6
+73_sre_6
+73_cet_6
+73_pet_6
+74_pon_6
+74_uto_6
+74_sre_6
+74_cet_6
+74_pet_6
+81_pon_6
+81_uto_6
+81_sre_6
+81_cet_6
+81_pet_6
+82_pon_6
+82_uto_6
+82_sre_6
+82_cet_6
+82_pet_6
+83_pon_6
+83_uto_6
+83_sre_6
+83_cet_6
+83_pet_6
+84_pon_6
+84_uto_6
+84_sre_6
+84_cet_6
+84_pet_6
+// petaci -- ako nemaju prvi, imaju bar 5 casova
+51_pon_1 51_pon_6
+51_uto_1 51_uto_6
+51_sre_1 51_sre_6
+51_cet_1 51_cet_6
+51_pet_1 51_pet_6
+52_pon_1 52_pon_6
+52_uto_1 52_uto_6
+52_sre_1 52_sre_6
+52_cet_1 52_cet_6
+52_pet_1 52_pet_6
+53_pon_1 53_pon_6
+53_uto_1 53_uto_6
+53_sre_1 53_sre_6
+53_cet_1 53_cet_6
+53_pet_1 53_pet_6
+54_pon_1 54_pon_6
+54_uto_1 54_uto_6
+54_sre_1 54_sre_6
+54_cet_1 54_cet_6
+54_pet_1 54_pet_6
+-51_pon_1 -51_pon_7 51_duration_pon_7
+-51_duration_pon_7 51_pon_1
+-51_duration_pon_7 51_pon_7
+-51_uto_1 -51_uto_7 51_duration_uto_7
+-51_duration_uto_7 51_uto_1
+-51_duration_uto_7 51_uto_7
+-51_sre_1 -51_sre_7 51_duration_sre_7
+-51_duration_sre_7 51_sre_1
+-51_duration_sre_7 51_sre_7
+-51_cet_1 -51_cet_7 51_duration_cet_7
+-51_duration_cet_7 51_cet_1
+-51_duration_cet_7 51_cet_7
+-51_pet_1 -51_pet_7 51_duration_pet_7
+-51_duration_pet_7 51_pet_1
+-51_duration_pet_7 51_pet_7
+-52_pon_1 -52_pon_7 52_duration_pon_7
+-52_duration_pon_7 52_pon_1
+-52_duration_pon_7 52_pon_7
+-52_uto_1 -52_uto_7 52_duration_uto_7
+-52_duration_uto_7 52_uto_1
+-52_duration_uto_7 52_uto_7
+-52_sre_1 -52_sre_7 52_duration_sre_7
+-52_duration_sre_7 52_sre_1
+-52_duration_sre_7 52_sre_7
+-52_cet_1 -52_cet_7 52_duration_cet_7
+-52_duration_cet_7 52_cet_1
+-52_duration_cet_7 52_cet_7
+-52_pet_1 -52_pet_7 52_duration_pet_7
+-52_duration_pet_7 52_pet_1
+-52_duration_pet_7 52_pet_7
+-53_pon_1 -53_pon_7 53_duration_pon_7
+-53_duration_pon_7 53_pon_1
+-53_duration_pon_7 53_pon_7
+-53_uto_1 -53_uto_7 53_duration_uto_7
+-53_duration_uto_7 53_uto_1
+-53_duration_uto_7 53_uto_7
+-53_sre_1 -53_sre_7 53_duration_sre_7
+-53_duration_sre_7 53_sre_1
+-53_duration_sre_7 53_sre_7
+-53_cet_1 -53_cet_7 53_duration_cet_7
+-53_duration_cet_7 53_cet_1
+-53_duration_cet_7 53_cet_7
+-53_pet_1 -53_pet_7 53_duration_pet_7
+-53_duration_pet_7 53_pet_1
+-53_duration_pet_7 53_pet_7
+-54_pon_1 -54_pon_7 54_duration_pon_7
+-54_duration_pon_7 54_pon_1
+-54_duration_pon_7 54_pon_7
+-54_uto_1 -54_uto_7 54_duration_uto_7
+-54_duration_uto_7 54_uto_1
+-54_duration_uto_7 54_uto_7
+-54_sre_1 -54_sre_7 54_duration_sre_7
+-54_duration_sre_7 54_sre_1
+-54_duration_sre_7 54_sre_7
+-54_cet_1 -54_cet_7 54_duration_cet_7
+-54_duration_cet_7 54_cet_1
+-54_duration_cet_7 54_cet_7
+-54_pet_1 -54_pet_7 54_duration_pet_7
+-54_duration_pet_7 54_pet_1
+-54_duration_pet_7 54_pet_7
+-61_pon_1 -61_pon_7 61_duration_pon_7
+-61_duration_pon_7 61_pon_1
+-61_duration_pon_7 61_pon_7
+-61_uto_1 -61_uto_7 61_duration_uto_7
+-61_duration_uto_7 61_uto_1
+-61_duration_uto_7 61_uto_7
+-61_sre_1 -61_sre_7 61_duration_sre_7
+-61_duration_sre_7 61_sre_1
+-61_duration_sre_7 61_sre_7
+-61_cet_1 -61_cet_7 61_duration_cet_7
+-61_duration_cet_7 61_cet_1
+-61_duration_cet_7 61_cet_7
+-61_pet_1 -61_pet_7 61_duration_pet_7
+-61_duration_pet_7 61_pet_1
+-61_duration_pet_7 61_pet_7
+-62_pon_1 -62_pon_7 62_duration_pon_7
+-62_duration_pon_7 62_pon_1
+-62_duration_pon_7 62_pon_7
+-62_uto_1 -62_uto_7 62_duration_uto_7
+-62_duration_uto_7 62_uto_1
+-62_duration_uto_7 62_uto_7
+-62_sre_1 -62_sre_7 62_duration_sre_7
+-62_duration_sre_7 62_sre_1
+-62_duration_sre_7 62_sre_7
+-62_cet_1 -62_cet_7 62_duration_cet_7
+-62_duration_cet_7 62_cet_1
+-62_duration_cet_7 62_cet_7
+-62_pet_1 -62_pet_7 62_duration_pet_7
+-62_duration_pet_7 62_pet_1
+-62_duration_pet_7 62_pet_7
+-63_pon_1 -63_pon_7 63_duration_pon_7
+-63_duration_pon_7 63_pon_1
+-63_duration_pon_7 63_pon_7
+-63_uto_1 -63_uto_7 63_duration_uto_7
+-63_duration_uto_7 63_uto_1
+-63_duration_uto_7 63_uto_7
+-63_sre_1 -63_sre_7 63_duration_sre_7
+-63_duration_sre_7 63_sre_1
+-63_duration_sre_7 63_sre_7
+-63_cet_1 -63_cet_7 63_duration_cet_7
+-63_duration_cet_7 63_cet_1
+-63_duration_cet_7 63_cet_7
+-63_pet_1 -63_pet_7 63_duration_pet_7
+-63_duration_pet_7 63_pet_1
+-63_duration_pet_7 63_pet_7
+-64_pon_1 -64_pon_7 64_duration_pon_7
+-64_duration_pon_7 64_pon_1
+-64_duration_pon_7 64_pon_7
+-64_uto_1 -64_uto_7 64_duration_uto_7
+-64_duration_uto_7 64_uto_1
+-64_duration_uto_7 64_uto_7
+-64_sre_1 -64_sre_7 64_duration_sre_7
+-64_duration_sre_7 64_sre_1
+-64_duration_sre_7 64_sre_7
+-64_cet_1 -64_cet_7 64_duration_cet_7
+-64_duration_cet_7 64_cet_1
+-64_duration_cet_7 64_cet_7
+-64_pet_1 -64_pet_7 64_duration_pet_7
+-64_duration_pet_7 64_pet_1
+-64_duration_pet_7 64_pet_7
 // pedagoski uslovi
 // isti predmet ne ide u uzastopnim danim
 -zijo_61_fiz.p.1'_pon -zijo_61_fiz.p.2'_uto
@@ -869,308 +1475,6 @@ busne_54_fra.p.2_cet_7
 -trina_84_rus.p.1'_uto -trina_84_rus.p.2'_sre
 -trina_84_rus.p.1'_sre -trina_84_rus.p.2'_cet
 -trina_84_rus.p.1'_cet -trina_84_rus.p.2'_pet
-// prisustvo u skoli
-51_pon_2
-51_uto_2
-51_sre_2
-51_cet_2
-51_pet_2
-52_pon_2
-52_uto_2
-52_sre_2
-52_cet_2
-52_pet_2
-53_pon_2
-53_uto_2
-53_sre_2
-53_cet_2
-53_pet_2
-54_pon_2
-54_uto_2
-54_sre_2
-54_cet_2
-54_pet_2
-61_pon_2
-61_uto_2
-61_sre_2
-61_cet_2
-61_pet_2
-62_pon_2
-62_uto_2
-62_sre_2
-62_cet_2
-62_pet_2
-63_pon_2
-63_uto_2
-63_sre_2
-63_cet_2
-63_pet_2
-64_pon_2
-64_uto_2
-64_sre_2
-64_cet_2
-64_pet_2
-71_pon_2
-71_uto_2
-71_sre_2
-71_cet_2
-71_pet_2
-72_pon_2
-72_uto_2
-72_sre_2
-72_cet_2
-72_pet_2
-73_pon_2
-73_uto_2
-73_sre_2
-73_cet_2
-73_pet_2
-74_pon_2
-74_uto_2
-74_sre_2
-74_cet_2
-74_pet_2
-81_pon_2
-81_uto_2
-81_sre_2
-81_cet_2
-81_pet_2
-82_pon_2
-82_uto_2
-82_sre_2
-82_cet_2
-82_pet_2
-83_pon_2
-83_uto_2
-83_sre_2
-83_cet_2
-83_pet_2
-84_pon_2
-84_uto_2
-84_sre_2
-84_cet_2
-84_pet_2
-51_pon_5
-51_uto_5
-51_sre_5
-51_cet_5
-51_pet_5
-52_pon_5
-52_uto_5
-52_sre_5
-52_cet_5
-52_pet_5
-53_pon_5
-53_uto_5
-53_sre_5
-53_cet_5
-53_pet_5
-54_pon_5
-54_uto_5
-54_sre_5
-54_cet_5
-54_pet_6
-61_pon_6
-61_uto_6
-61_sre_6
-61_cet_6
-61_pet_6
-62_pon_6
-62_uto_6
-62_sre_6
-62_cet_6
-62_pet_6
-63_pon_6
-63_uto_6
-63_sre_6
-63_cet_6
-63_pet_6
-64_pon_6
-64_uto_6
-64_sre_6
-64_cet_6
-64_pet_6
-71_pon_6
-71_uto_6
-71_sre_6
-71_cet_6
-71_pet_6
-72_pon_6
-72_uto_6
-72_sre_6
-72_cet_6
-72_pet_6
-73_pon_6
-73_uto_6
-73_sre_6
-73_cet_6
-73_pet_6
-74_pon_6
-74_uto_6
-74_sre_6
-74_cet_6
-74_pet_6
-81_pon_6
-81_uto_6
-81_sre_6
-81_cet_6
-81_pet_6
-82_pon_6
-82_uto_6
-82_sre_6
-82_cet_6
-82_pet_6
-83_pon_6
-83_uto_6
-83_sre_6
-83_cet_6
-83_pet_6
-84_pon_6
-84_uto_6
-84_sre_6
-84_cet_6
-84_pet_6
-// petaci -- ako nemaju prvi, imaju bar 5 casova
-51_pon_1 51_pon_6
-51_uto_1 51_uto_6
-51_sre_1 51_sre_6
-51_cet_1 51_cet_6
-51_pet_1 51_pet_6
-52_pon_1 52_pon_6
-52_uto_1 52_uto_6
-52_sre_1 52_sre_6
-52_cet_1 52_cet_6
-52_pet_1 52_pet_6
-53_pon_1 53_pon_6
-53_uto_1 53_uto_6
-53_sre_1 53_sre_6
-53_cet_1 53_cet_6
-53_pet_1 53_pet_6
-54_pon_1 54_pon_6
-54_uto_1 54_uto_6
-54_sre_1 54_sre_6
-54_cet_1 54_cet_6
-54_pet_1 54_pet_6
--51_pon_1 -51_pon_7 51_duration_pon_7
--51_duration_pon_7 51_pon_1
--51_duration_pon_7 51_pon_7
--51_uto_1 -51_uto_7 51_duration_uto_7
--51_duration_uto_7 51_uto_1
--51_duration_uto_7 51_uto_7
--51_sre_1 -51_sre_7 51_duration_sre_7
--51_duration_sre_7 51_sre_1
--51_duration_sre_7 51_sre_7
--51_cet_1 -51_cet_7 51_duration_cet_7
--51_duration_cet_7 51_cet_1
--51_duration_cet_7 51_cet_7
--51_pet_1 -51_pet_7 51_duration_pet_7
--51_duration_pet_7 51_pet_1
--51_duration_pet_7 51_pet_7
--52_pon_1 -52_pon_7 52_duration_pon_7
--52_duration_pon_7 52_pon_1
--52_duration_pon_7 52_pon_7
--52_uto_1 -52_uto_7 52_duration_uto_7
--52_duration_uto_7 52_uto_1
--52_duration_uto_7 52_uto_7
--52_sre_1 -52_sre_7 52_duration_sre_7
--52_duration_sre_7 52_sre_1
--52_duration_sre_7 52_sre_7
--52_cet_1 -52_cet_7 52_duration_cet_7
--52_duration_cet_7 52_cet_1
--52_duration_cet_7 52_cet_7
--52_pet_1 -52_pet_7 52_duration_pet_7
--52_duration_pet_7 52_pet_1
--52_duration_pet_7 52_pet_7
--53_pon_1 -53_pon_7 53_duration_pon_7
--53_duration_pon_7 53_pon_1
--53_duration_pon_7 53_pon_7
--53_uto_1 -53_uto_7 53_duration_uto_7
--53_duration_uto_7 53_uto_1
--53_duration_uto_7 53_uto_7
--53_sre_1 -53_sre_7 53_duration_sre_7
--53_duration_sre_7 53_sre_1
--53_duration_sre_7 53_sre_7
--53_cet_1 -53_cet_7 53_duration_cet_7
--53_duration_cet_7 53_cet_1
--53_duration_cet_7 53_cet_7
--53_pet_1 -53_pet_7 53_duration_pet_7
--53_duration_pet_7 53_pet_1
--53_duration_pet_7 53_pet_7
--54_pon_1 -54_pon_7 54_duration_pon_7
--54_duration_pon_7 54_pon_1
--54_duration_pon_7 54_pon_7
--54_uto_1 -54_uto_7 54_duration_uto_7
--54_duration_uto_7 54_uto_1
--54_duration_uto_7 54_uto_7
--54_sre_1 -54_sre_7 54_duration_sre_7
--54_duration_sre_7 54_sre_1
--54_duration_sre_7 54_sre_7
--54_cet_1 -54_cet_7 54_duration_cet_7
--54_duration_cet_7 54_cet_1
--54_duration_cet_7 54_cet_7
--54_pet_1 -54_pet_7 54_duration_pet_7
--54_duration_pet_7 54_pet_1
--54_duration_pet_7 54_pet_7
--61_pon_1 -61_pon_7 61_duration_pon_7
--61_duration_pon_7 61_pon_1
--61_duration_pon_7 61_pon_7
--61_uto_1 -61_uto_7 61_duration_uto_7
--61_duration_uto_7 61_uto_1
--61_duration_uto_7 61_uto_7
--61_sre_1 -61_sre_7 61_duration_sre_7
--61_duration_sre_7 61_sre_1
--61_duration_sre_7 61_sre_7
--61_cet_1 -61_cet_7 61_duration_cet_7
--61_duration_cet_7 61_cet_1
--61_duration_cet_7 61_cet_7
--61_pet_1 -61_pet_7 61_duration_pet_7
--61_duration_pet_7 61_pet_1
--61_duration_pet_7 61_pet_7
--62_pon_1 -62_pon_7 62_duration_pon_7
--62_duration_pon_7 62_pon_1
--62_duration_pon_7 62_pon_7
--62_uto_1 -62_uto_7 62_duration_uto_7
--62_duration_uto_7 62_uto_1
--62_duration_uto_7 62_uto_7
--62_sre_1 -62_sre_7 62_duration_sre_7
--62_duration_sre_7 62_sre_1
--62_duration_sre_7 62_sre_7
--62_cet_1 -62_cet_7 62_duration_cet_7
--62_duration_cet_7 62_cet_1
--62_duration_cet_7 62_cet_7
--62_pet_1 -62_pet_7 62_duration_pet_7
--62_duration_pet_7 62_pet_1
--62_duration_pet_7 62_pet_7
--63_pon_1 -63_pon_7 63_duration_pon_7
--63_duration_pon_7 63_pon_1
--63_duration_pon_7 63_pon_7
--63_uto_1 -63_uto_7 63_duration_uto_7
--63_duration_uto_7 63_uto_1
--63_duration_uto_7 63_uto_7
--63_sre_1 -63_sre_7 63_duration_sre_7
--63_duration_sre_7 63_sre_1
--63_duration_sre_7 63_sre_7
--63_cet_1 -63_cet_7 63_duration_cet_7
--63_duration_cet_7 63_cet_1
--63_duration_cet_7 63_cet_7
--63_pet_1 -63_pet_7 63_duration_pet_7
--63_duration_pet_7 63_pet_1
--63_duration_pet_7 63_pet_7
--64_pon_1 -64_pon_7 64_duration_pon_7
--64_duration_pon_7 64_pon_1
--64_duration_pon_7 64_pon_7
--64_uto_1 -64_uto_7 64_duration_uto_7
--64_duration_uto_7 64_uto_1
--64_duration_uto_7 64_uto_7
--64_sre_1 -64_sre_7 64_duration_sre_7
--64_duration_sre_7 64_sre_1
--64_duration_sre_7 64_sre_7
--64_cet_1 -64_cet_7 64_duration_cet_7
--64_duration_cet_7 64_cet_1
--64_duration_cet_7 64_cet_7
--64_pet_1 -64_pet_7 64_duration_pet_7
--64_duration_pet_7 64_pet_1
--64_duration_pet_7 64_pet_7
 // matematika, sprski, fizika - 7. cas 
 -vojo_pon_7 vojo_54_cos.v.1'_pon_7
 -vojo_uto_7 vojo_54_cos.v.1'_uto_7
@@ -1198,12 +1502,16 @@ busne_54_fra.p.2_cet_7
 -hata_sre_7 hata_82_cos.v.1'_sre_7
 -hata_cet_7 hata_82_cos.v.1'_cet_7
 -hata_pet_7 hata_82_cos.v.1'_pet_7
--rejo_7
 -zijo_pon_7 zijo_53_cos.v.1'_pon_7
 -zijo_uto_7 zijo_53_cos.v.1'_uto_7
 -zijo_sre_7 zijo_53_cos.v.1'_sre_7
 -zijo_cet_7 zijo_53_cos.v.1'_cet_7
 -zijo_pet_7 zijo_53_cos.v.1'_pet_7
+-rejo_pon_7 rejo_51_gra.v.1_pon_7 rejo_52_gra.v.1_pon_7 rejo_61_gra.v.1_pon_7 rejo_81_gra.v.1_pon_7
+-rejo_uto_7 rejo_51_gra.v.1_uto_7 rejo_52_gra.v.1_uto_7 rejo_61_gra.v.1_uto_7 rejo_81_gra.v.1_uto_7
+-rejo_sre_7 rejo_51_gra.v.1_sre_7 rejo_52_gra.v.1_sre_7 rejo_61_gra.v.1_sre_7 rejo_81_gra.v.1_sre_7
+-rejo_cet_7 rejo_51_gra.v.1_cet_7 rejo_52_gra.v.1_cet_7 rejo_61_gra.v.1_cet_7 rejo_81_gra.v.1_cet_7
+-rejo_pet_7 rejo_51_gra.v.1_pet_7 rejo_52_gra.v.1_pet_7 rejo_61_gra.v.1_pet_7 rejo_81_gra.v.1_pet_7
 // biologija, geografija, istorija - 7. cas
 -kusa_pon_7 kusa_73_cos.v.1'_pon_7
 -kusa_uto_7 kusa_73_cos.v.1'_uto_7
@@ -1235,6 +1543,8 @@ busne_54_fra.p.2_cet_7
 -trima_sre_7 trima_61_mp.v.1'_sre_7 trima_62_mp.v.1'_sre_7
 -trima_cet_7 trima_61_mp.v.1'_cet_7 trima_62_mp.v.1'_cet_7
 -trima_pet_7 trima_61_mp.v.1'_pet_7 trima_62_mp.v.1'_pet_7
+// engleski ne moze 7 cas
+-mami_7
 // za petake ne moze geografija ni istorija 6. cas
 -arsa_51_geo.p.1_pon_6
 -arsa_51_geo.p.1_uto_6
@@ -1313,6 +1623,27 @@ cvone_74_cos.v.1'_pon_1 cvone_74_cos.v.1'_uto_1 cvone_74_cos.v.1'_sre_1 cvone_74
 hata_82_cos.v.1'_pon_1 hata_82_cos.v.1'_uto_1 hata_82_cos.v.1'_sre_1 hata_82_cos.v.1'_cet_1 hata_82_cos.v.1'_pet_1 hata_82_cos.v.1'_pon_7 hata_82_cos.v.1'_uto_7 hata_82_cos.v.1'_sre_7 hata_82_cos.v.1'_cet_7 hata_82_cos.v.1'_pet_7
 bosne_83_cos.v.1'_pon_1 bosne_83_cos.v.1'_uto_1 bosne_83_cos.v.1'_sre_1 bosne_83_cos.v.1'_cet_1 bosne_83_cos.v.1'_pet_1 bosne_83_cos.v.1'_pon_7 bosne_83_cos.v.1'_uto_7 bosne_83_cos.v.1'_sre_7 bosne_83_cos.v.1'_cet_7 bosne_83_cos.v.1'_pet_7
 kove_84_cos.v.1'_pon_1 kove_84_cos.v.1'_uto_1 kove_84_cos.v.1'_sre_1 kove_84_cos.v.1'_cet_1 kove_84_cos.v.1'_pet_1 kove_84_cos.v.1'_pon_7 kove_84_cos.v.1'_uto_7 kove_84_cos.v.1'_sre_7 kove_84_cos.v.1'_cet_7 kove_84_cos.v.1'_pet_7
+// rupe
+arsa_hole1_pon_2 boal_hole1_pon_2 bosne_hole1_pon_2 brsla_hole1_pon_2 busne_hole1_pon_2 cvone_hole1_pon_2 hata_hole1_pon_2 joma_hole1_pon_2 kove_hole1_pon_2 kusa_hole1_pon_2 mami_hole1_pon_2 mani_hole1_pon_2 miiv_hole1_pon_2 neol_hole1_pon_2 nial_hole1_pon_2 opje_hole1_pon_2 pone_hole1_pon_2 rada_hole1_pon_2 rejo_hole1_pon_2 rojo_hole1_pon_2 somi_hole1_pon_2 stama_hole1_pon_2 steda_hole1_pon_2 stomi_hole1_pon_2 trima_hole1_pon_2 trina_hole1_pon_2 vojo_hole1_pon_2 zijo_hole1_pon_2 zita_hole1_pon_2 munje_hole1_pon_2 
+arsa_hole1_pon_3 boal_hole1_pon_3 bosne_hole1_pon_3 brsla_hole1_pon_3 busne_hole1_pon_3 cvone_hole1_pon_3 hata_hole1_pon_3 joma_hole1_pon_3 kove_hole1_pon_3 kusa_hole1_pon_3 mami_hole1_pon_3 mani_hole1_pon_3 miiv_hole1_pon_3 neol_hole1_pon_3 nial_hole1_pon_3 opje_hole1_pon_3 pone_hole1_pon_3 rada_hole1_pon_3 rejo_hole1_pon_3 rojo_hole1_pon_3 somi_hole1_pon_3 stama_hole1_pon_3 steda_hole1_pon_3 stomi_hole1_pon_3 trima_hole1_pon_3 trina_hole1_pon_3 vojo_hole1_pon_3 zijo_hole1_pon_3 zita_hole1_pon_3 munje_hole1_pon_3 
+//arsa_hole1_pon_4 boal_hole1_pon_4 bosne_hole1_pon_4 brsla_hole1_pon_4 busne_hole1_pon_4 cvone_hole1_pon_4 hata_hole1_pon_4 joma_hole1_pon_4 kove_hole1_pon_4 kusa_hole1_pon_4 mami_hole1_pon_4 mani_hole1_pon_4 miiv_hole1_pon_4 neol_hole1_pon_4 nial_hole1_pon_4 opje_hole1_pon_4 pone_hole1_pon_4 rada_hole1_pon_4 rejo_hole1_pon_4 rojo_hole1_pon_4 somi_hole1_pon_4 stama_hole1_pon_4 steda_hole1_pon_4 stomi_hole1_pon_4 trima_hole1_pon_4 trina_hole1_pon_4 vojo_hole1_pon_4 zijo_hole1_pon_4 zita_hole1_pon_4 munje_hole1_pon_4
+arsa_hole1_pon_5 boal_hole1_pon_5 bosne_hole1_pon_5 brsla_hole1_pon_5 busne_hole1_pon_5 cvone_hole1_pon_5 hata_hole1_pon_5 joma_hole1_pon_5 kove_hole1_pon_5 kusa_hole1_pon_5 mami_hole1_pon_5 mani_hole1_pon_5 miiv_hole1_pon_5 neol_hole1_pon_5 nial_hole1_pon_5 opje_hole1_pon_5 pone_hole1_pon_5 rada_hole1_pon_5 rejo_hole1_pon_5 rojo_hole1_pon_5 somi_hole1_pon_5 stama_hole1_pon_5 steda_hole1_pon_5 stomi_hole1_pon_5 trima_hole1_pon_5 trina_hole1_pon_5 vojo_hole1_pon_5 zijo_hole1_pon_5 zita_hole1_pon_5 munje_hole1_pon_5 
+arsa_hole1_uto_2 boal_hole1_uto_2 bosne_hole1_uto_2 brsla_hole1_uto_2 busne_hole1_uto_2 cvone_hole1_uto_2 hata_hole1_uto_2 joma_hole1_uto_2 kove_hole1_uto_2 kusa_hole1_uto_2 mami_hole1_uto_2 mani_hole1_uto_2 miiv_hole1_uto_2 neol_hole1_uto_2 nial_hole1_uto_2 opje_hole1_uto_2 pone_hole1_uto_2 rada_hole1_uto_2 rejo_hole1_uto_2 rojo_hole1_uto_2 somi_hole1_uto_2 stama_hole1_uto_2 steda_hole1_uto_2 stomi_hole1_uto_2 trima_hole1_uto_2 trina_hole1_uto_2 vojo_hole1_uto_2 zijo_hole1_uto_2 zita_hole1_uto_2 munje_hole1_uto_2 
+arsa_hole1_uto_3 boal_hole1_uto_3 bosne_hole1_uto_3 brsla_hole1_uto_3 busne_hole1_uto_3 cvone_hole1_uto_3 hata_hole1_uto_3 joma_hole1_uto_3 kove_hole1_uto_3 kusa_hole1_uto_3 mami_hole1_uto_3 mani_hole1_uto_3 miiv_hole1_uto_3 neol_hole1_uto_3 nial_hole1_uto_3 opje_hole1_uto_3 pone_hole1_uto_3 rada_hole1_uto_3 rejo_hole1_uto_3 rojo_hole1_uto_3 somi_hole1_uto_3 stama_hole1_uto_3 steda_hole1_uto_3 stomi_hole1_uto_3 trima_hole1_uto_3 trina_hole1_uto_3 vojo_hole1_uto_3 zijo_hole1_uto_3 zita_hole1_uto_3 munje_hole1_uto_3 
+arsa_hole1_uto_4 boal_hole1_uto_4 bosne_hole1_uto_4 brsla_hole1_uto_4 busne_hole1_uto_4 cvone_hole1_uto_4 hata_hole1_uto_4 joma_hole1_uto_4 kove_hole1_uto_4 kusa_hole1_uto_4 mami_hole1_uto_4 mani_hole1_uto_4 miiv_hole1_uto_4 neol_hole1_uto_4 nial_hole1_uto_4 opje_hole1_uto_4 pone_hole1_uto_4 rada_hole1_uto_4 rejo_hole1_uto_4 rojo_hole1_uto_4 somi_hole1_uto_4 stama_hole1_uto_4 steda_hole1_uto_4 stomi_hole1_uto_4 trima_hole1_uto_4 trina_hole1_uto_4 vojo_hole1_uto_4 zijo_hole1_uto_4 zita_hole1_uto_4 munje_hole1_uto_4 
+arsa_hole1_uto_5 boal_hole1_uto_5 bosne_hole1_uto_5 brsla_hole1_uto_5 busne_hole1_uto_5 cvone_hole1_uto_5 hata_hole1_uto_5 joma_hole1_uto_5 kove_hole1_uto_5 kusa_hole1_uto_5 mami_hole1_uto_5 mani_hole1_uto_5 miiv_hole1_uto_5 neol_hole1_uto_5 nial_hole1_uto_5 opje_hole1_uto_5 pone_hole1_uto_5 rada_hole1_uto_5 rejo_hole1_uto_5 rojo_hole1_uto_5 somi_hole1_uto_5 stama_hole1_uto_5 steda_hole1_uto_5 stomi_hole1_uto_5 trima_hole1_uto_5 trina_hole1_uto_5 vojo_hole1_uto_5 zijo_hole1_uto_5 zita_hole1_uto_5 munje_hole1_uto_5 
+arsa_hole1_sre_2 boal_hole1_sre_2 bosne_hole1_sre_2 brsla_hole1_sre_2 busne_hole1_sre_2 cvone_hole1_sre_2 hata_hole1_sre_2 joma_hole1_sre_2 kove_hole1_sre_2 kusa_hole1_sre_2 mami_hole1_sre_2 mani_hole1_sre_2 miiv_hole1_sre_2 neol_hole1_sre_2 nial_hole1_sre_2 opje_hole1_sre_2 pone_hole1_sre_2 rada_hole1_sre_2 rejo_hole1_sre_2 rojo_hole1_sre_2 somi_hole1_sre_2 stama_hole1_sre_2 steda_hole1_sre_2 stomi_hole1_sre_2 trima_hole1_sre_2 trina_hole1_sre_2 vojo_hole1_sre_2 zijo_hole1_sre_2 zita_hole1_sre_2 munje_hole1_sre_2
+arsa_hole1_sre_3 boal_hole1_sre_3 bosne_hole1_sre_3 brsla_hole1_sre_3 busne_hole1_sre_3 cvone_hole1_sre_3 hata_hole1_sre_3 joma_hole1_sre_3 kove_hole1_sre_3 kusa_hole1_sre_3 mami_hole1_sre_3 mani_hole1_sre_3 miiv_hole1_sre_3 neol_hole1_sre_3 nial_hole1_sre_3 opje_hole1_sre_3 pone_hole1_sre_3 rada_hole1_sre_3 rejo_hole1_sre_3 rojo_hole1_sre_3 somi_hole1_sre_3 stama_hole1_sre_3 steda_hole1_sre_3 stomi_hole1_sre_3 trima_hole1_sre_3 trina_hole1_sre_3 vojo_hole1_sre_3 zijo_hole1_sre_3 zita_hole1_sre_3 munje_hole1_sre_3 
+arsa_hole1_sre_4 boal_hole1_sre_4 bosne_hole1_sre_4 brsla_hole1_sre_4 busne_hole1_sre_4 cvone_hole1_sre_4 hata_hole1_sre_4 joma_hole1_sre_4 kove_hole1_sre_4 kusa_hole1_sre_4 mami_hole1_sre_4 mani_hole1_sre_4 miiv_hole1_sre_4 neol_hole1_sre_4 nial_hole1_sre_4 opje_hole1_sre_4 pone_hole1_sre_4 rada_hole1_sre_4 rejo_hole1_sre_4 rojo_hole1_sre_4 somi_hole1_sre_4 stama_hole1_sre_4 steda_hole1_sre_4 stomi_hole1_sre_4 trima_hole1_sre_4 trina_hole1_sre_4 vojo_hole1_sre_4 zijo_hole1_sre_4 zita_hole1_sre_4 munje_hole1_sre_4 
+arsa_hole1_sre_5 boal_hole1_sre_5 bosne_hole1_sre_5 brsla_hole1_sre_5 busne_hole1_sre_5 cvone_hole1_sre_5 hata_hole1_sre_5 joma_hole1_sre_5 kove_hole1_sre_5 kusa_hole1_sre_5 mami_hole1_sre_5 mani_hole1_sre_5 miiv_hole1_sre_5 neol_hole1_sre_5 nial_hole1_sre_5 opje_hole1_sre_5 pone_hole1_sre_5 rada_hole1_sre_5 rejo_hole1_sre_5 rojo_hole1_sre_5 somi_hole1_sre_5 stama_hole1_sre_5 steda_hole1_sre_5 stomi_hole1_sre_5 trima_hole1_sre_5 trina_hole1_sre_5 vojo_hole1_sre_5 zijo_hole1_sre_5 zita_hole1_sre_5 munje_hole1_sre_5 
+//arsa_hole1_cet_2 boal_hole1_cet_2 bosne_hole1_cet_2 brsla_hole1_cet_2 busne_hole1_cet_2 cvone_hole1_cet_2 hata_hole1_cet_2 joma_hole1_cet_2 kove_hole1_cet_2 kusa_hole1_cet_2 mami_hole1_cet_2 mani_hole1_cet_2 miiv_hole1_cet_2 neol_hole1_cet_2 nial_hole1_cet_2 opje_hole1_cet_2 pone_hole1_cet_2 rada_hole1_cet_2 rejo_hole1_cet_2 rojo_hole1_cet_2 somi_hole1_cet_2 stama_hole1_cet_2 steda_hole1_cet_2 stomi_hole1_cet_2 trima_hole1_cet_2 trina_hole1_cet_2 vojo_hole1_cet_2 zijo_hole1_cet_2 zita_hole1_cet_2 munje_hole1_cet_2 
+arsa_hole1_cet_3 boal_hole1_cet_3 bosne_hole1_cet_3 brsla_hole1_cet_3 busne_hole1_cet_3 cvone_hole1_cet_3 hata_hole1_cet_3 joma_hole1_cet_3 kove_hole1_cet_3 kusa_hole1_cet_3 mami_hole1_cet_3 mani_hole1_cet_3 miiv_hole1_cet_3 neol_hole1_cet_3 nial_hole1_cet_3 opje_hole1_cet_3 pone_hole1_cet_3 rada_hole1_cet_3 rejo_hole1_cet_3 rojo_hole1_cet_3 somi_hole1_cet_3 stama_hole1_cet_3 steda_hole1_cet_3 stomi_hole1_cet_3 trima_hole1_cet_3 trina_hole1_cet_3 vojo_hole1_cet_3 zijo_hole1_cet_3 zita_hole1_cet_3 munje_hole1_cet_3 
+arsa_hole1_cet_4 boal_hole1_cet_4 bosne_hole1_cet_4 brsla_hole1_cet_4 busne_hole1_cet_4 cvone_hole1_cet_4 hata_hole1_cet_4 joma_hole1_cet_4 kove_hole1_cet_4 kusa_hole1_cet_4 mami_hole1_cet_4 mani_hole1_cet_4 miiv_hole1_cet_4 neol_hole1_cet_4 nial_hole1_cet_4 opje_hole1_cet_4 pone_hole1_cet_4 rada_hole1_cet_4 rejo_hole1_cet_4 rojo_hole1_cet_4 somi_hole1_cet_4 stama_hole1_cet_4 steda_hole1_cet_4 stomi_hole1_cet_4 trima_hole1_cet_4 trina_hole1_cet_4 vojo_hole1_cet_4 zijo_hole1_cet_4 zita_hole1_cet_4 munje_hole1_cet_4 
+arsa_hole1_cet_5 boal_hole1_cet_5 bosne_hole1_cet_5 brsla_hole1_cet_5 busne_hole1_cet_5 cvone_hole1_cet_5 hata_hole1_cet_5 joma_hole1_cet_5 kove_hole1_cet_5 kusa_hole1_cet_5 mami_hole1_cet_5 mani_hole1_cet_5 miiv_hole1_cet_5 neol_hole1_cet_5 nial_hole1_cet_5 opje_hole1_cet_5 pone_hole1_cet_5 rada_hole1_cet_5 rejo_hole1_cet_5 rojo_hole1_cet_5 somi_hole1_cet_5 stama_hole1_cet_5 steda_hole1_cet_5 stomi_hole1_cet_5 trima_hole1_cet_5 trina_hole1_cet_5 vojo_hole1_cet_5 zijo_hole1_cet_5 zita_hole1_cet_5 munje_hole1_cet_5 
+//arsa_hole1_pet_2 boal_hole1_pet_2 bosne_hole1_pet_2 brsla_hole1_pet_2 busne_hole1_pet_2 cvone_hole1_pet_2 hata_hole1_pet_2 joma_hole1_pet_2 kove_hole1_pet_2 kusa_hole1_pet_2 mami_hole1_pet_2 mani_hole1_pet_2 miiv_hole1_pet_2 neol_hole1_pet_2 nial_hole1_pet_2 opje_hole1_pet_2 pone_hole1_pet_2 rada_hole1_pet_2 rejo_hole1_pet_2 rojo_hole1_pet_2 somi_hole1_pet_2 stama_hole1_pet_2 steda_hole1_pet_2 stomi_hole1_pet_2 trima_hole1_pet_2 trina_hole1_pet_2 vojo_hole1_pet_2 zijo_hole1_pet_2 zita_hole1_pet_2 munje_hole1_pet_2 
+arsa_hole1_pet_3 boal_hole1_pet_3 bosne_hole1_pet_3 brsla_hole1_pet_3 busne_hole1_pet_3 cvone_hole1_pet_3 hata_hole1_pet_3 joma_hole1_pet_3 kove_hole1_pet_3 kusa_hole1_pet_3 mami_hole1_pet_3 mani_hole1_pet_3 miiv_hole1_pet_3 neol_hole1_pet_3 nial_hole1_pet_3 opje_hole1_pet_3 pone_hole1_pet_3 rada_hole1_pet_3 rejo_hole1_pet_3 rojo_hole1_pet_3 somi_hole1_pet_3 stama_hole1_pet_3 steda_hole1_pet_3 stomi_hole1_pet_3 trima_hole1_pet_3 trina_hole1_pet_3 vojo_hole1_pet_3 zijo_hole1_pet_3 zita_hole1_pet_3 munje_hole1_pet_3 
+arsa_hole1_pet_4 boal_hole1_pet_4 bosne_hole1_pet_4 brsla_hole1_pet_4 busne_hole1_pet_4 cvone_hole1_pet_4 hata_hole1_pet_4 joma_hole1_pet_4 kove_hole1_pet_4 kusa_hole1_pet_4 mami_hole1_pet_4 mani_hole1_pet_4 miiv_hole1_pet_4 neol_hole1_pet_4 nial_hole1_pet_4 opje_hole1_pet_4 pone_hole1_pet_4 rada_hole1_pet_4 rejo_hole1_pet_4 rojo_hole1_pet_4 somi_hole1_pet_4 stama_hole1_pet_4 steda_hole1_pet_4 stomi_hole1_pet_4 trima_hole1_pet_4 trina_hole1_pet_4 vojo_hole1_pet_4 zijo_hole1_pet_4 zita_hole1_pet_4 munje_hole1_pet_4 
+arsa_hole1_pet_5 boal_hole1_pet_5 bosne_hole1_pet_5 brsla_hole1_pet_5 busne_hole1_pet_5 cvone_hole1_pet_5 hata_hole1_pet_5 joma_hole1_pet_5 kove_hole1_pet_5 kusa_hole1_pet_5 mami_hole1_pet_5 mani_hole1_pet_5 miiv_hole1_pet_5 neol_hole1_pet_5 nial_hole1_pet_5 opje_hole1_pet_5 pone_hole1_pet_5 rada_hole1_pet_5 rejo_hole1_pet_5 rojo_hole1_pet_5 somi_hole1_pet_5 stama_hole1_pet_5 steda_hole1_pet_5 stomi_hole1_pet_5 trima_hole1_pet_5 trina_hole1_pet_5 vojo_hole1_pet_5 zijo_hole1_pet_5 zita_hole1_pet_5 munje_hole1_pet_5 
 // zelje
 // Bogicevic
 -bosne_uto_3
@@ -1335,6 +1666,9 @@ kove_84_cos.v.1'_pon_1 kove_84_cos.v.1'_uto_1 kove_84_cos.v.1'_sre_1 kove_84_cos
 -boal_pet_5
 -boal_pon_4
 -boal_sre_4
+-trina_uto_5
+-trina_uto_4
+-trina_uto_3
 // Brkic
 -brsla_1
 brsla_pon_2
@@ -1342,6 +1676,24 @@ brsla_uto_2
 brsla_sre_2
 brsla_cet_2
 brsla_pet_2
+// Arsa
+-arsa_72_cos.v.1_uto_1
+-arsa_72_cos.v.1_uto_7
+-arsa_72_cos.v.1_cet_1
+-arsa_72_cos.v.1_cet_7
+// Hadzic
+// Sabrina
+-kusa_duration_pon_6 kusa_hole1_pon
+-kusa_duration_uto_6 kusa_hole1_uto
+-kusa_duration_sre_6 kusa_hole1_sre
+-kusa_duration_cet_6 kusa_hole1_cet
+-kusa_duration_pet_6 kusa_hole1_pet
+// Nevena
+-cvone_duration_pon_6 cvone_hole1_pon
+-cvone_duration_uto_6 cvone_hole1_uto
+-cvone_duration_sre_6 cvone_hole1_sre
+-cvone_duration_cet_6 cvone_hole1_cet
+-cvone_duration_pet_6 cvone_hole1_pet
 // 74
 -arsa_74_geo.p.1'_pon_1
 -arsa_74_geo.p.1'_uto_1
@@ -1380,14 +1732,14 @@ brsla_pet_2
 -kusa_74_bio.p.2'_pet -arsa_74_geo.p.2'_pet -kove_74_ist.p.2'_pet
 kove_74_ist.p.1'_uto
 kove_74_ist.p.2'_cet
--74_pon_1
+//-74_pon_1
 -74_pet_7
 // rupe
 arsa_hole1_pon arsa_hole1_uto arsa_hole1_sre arsa_hole1_cet arsa_hole1_pet
 // boal_hole1_pon boal_hole1_uto boal_hole1_sre boal_hole1_cet boal_hole1_pet
 bosne_hole1_pon bosne_hole1_uto bosne_hole1_sre bosne_hole1_cet bosne_hole1_pet
 brsla_hole1_pon brsla_hole1_uto brsla_hole1_sre brsla_hole1_cet brsla_hole1_pet
-busne_hole1_pon busne_hole1_uto busne_hole1_sre busne_hole1_cet busne_hole1_pet
+-busne_2hole1
 cvone_hole1_pon cvone_hole1_uto cvone_hole1_sre cvone_hole1_cet cvone_hole1_pet
 hata_hole1_pon hata_hole1_uto hata_hole1_sre hata_hole1_cet hata_hole1_pet
 // joma_hole1_pon joma_hole1_uto joma_hole1_sre joma_hole1_cet joma_hole1_pet
@@ -1396,10 +1748,10 @@ kusa_hole1_pon kusa_hole1_uto kusa_hole1_sre kusa_hole1_cet kusa_hole1_pet
 // mami_hole1_pon mami_hole1_uto mami_hole1_sre mami_hole1_cet mami_hole1_pet
 kusa_hole1_pon kusa_hole1_uto kusa_hole1_sre kusa_hole1_cet kusa_hole1_pet
 // --- miiv_hole1_pon miiv_hole1_uto miiv_hole1_sre miiv_hole1_cet miiv_hole1_pet
-munje_hole1_pon munje_hole1_uto munje_hole1_sre munje_hole1_cet munje_hole1_pet
+//munje_hole1_pon munje_hole1_uto munje_hole1_sre munje_hole1_cet munje_hole1_pet
 neol_hole1_pon neol_hole1_uto neol_hole1_sre neol_hole1_cet neol_hole1_pet
 // --- nial_hole1_pon nial_hole1_uto nial_hole1_sre nial_hole1_cet nial_hole1_pet
-pone_hole1_pon pone_hole1_uto pone_hole1_sre pone_hole1_cet pone_hole1_pet
+// --- pone_hole1_pon pone_hole1_uto pone_hole1_sre pone_hole1_cet pone_hole1_pet
 rada_hole1_pon rada_hole1_uto rada_hole1_sre rada_hole1_cet rada_hole1_pet
 // rejo_hole1_pon rejo_hole1_uto rejo_hole1_sre rejo_hole1_cet rejo_hole1_pet
 rojo_hole1_pon rojo_hole1_uto rojo_hole1_sre rojo_hole1_cet rojo_hole1_pet
@@ -1408,7 +1760,22 @@ stama_hole1_pon stama_hole1_uto stama_hole1_sre stama_hole1_cet stama_hole1_pet
 steda_hole1_pon steda_hole1_uto steda_hole1_sre steda_hole1_cet steda_hole1_pet
 stomi_hole1_pon stomi_hole1_uto stomi_hole1_sre stomi_hole1_cet stomi_hole1_pet
 // trima_hole1_pon trima_hole1_uto trima_hole1_sre trima_hole1_cet trima_hole1_pet
-trina_hole1_pon trina_hole1_uto trina_hole1_sre trina_hole1_cet trina_hole1_pet
+// trina_hole1_pon trina_hole1_uto trina_hole1_sre trina_hole1_cet trina_hole1_pet
 vojo_hole1_pon vojo_hole1_uto vojo_hole1_sre vojo_hole1_cet vojo_hole1_pet
 zijo_hole1_pon zijo_hole1_uto zijo_hole1_sre zijo_hole1_cet zijo_hole1_pet
-zita_hole1_pon zita_hole1_uto zita_hole1_sre zita_hole1_cet zita_hole1_pet
+//
+-cvone_2hole1
+-somi_hole1_pon somi_duration_pon_6
+-somi_hole1_uto somi_duration_uto_6
+-somi_hole1_sre somi_duration_sre_6
+-somi_hole1_cet somi_duration_cet_6
+-somi_hole1_pet somi_duration_pet_6
+-kove_2hole1
+-hata_2hole1
+-rejo_pet_6
+-rejo_sre_6 -rejo_uto_6
+-rejo_7
+-zita_hole1
+-rejo_2hole1
+-kove_duration_uto_5
+-kove_duration_sre_5
