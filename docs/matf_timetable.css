@@ -1,5 +1,12 @@
+p.version {
+    text-align: center;
+    margin: 0pt;
+    padding: 0pt;
+}
+
 h2 {
     text-align: center;
+    margin: 3pt;
 }
 
 body {
@@ -33,7 +40,7 @@ hr
 
 table.evenodd {
         border-collapse : colapse;
-        border : 1px #E4C5D2 dashed;
+        border : 1px #A5D5D5 dashed;
 }
 
 tr.even, td.even {
@@ -75,7 +82,7 @@ table.timetable {
 }
 
 th.timetable {
-	background : #F28370;
+	background : #FF3399;
 	border : 1px solid white;
 	font-size : 10pt;
         text-align: center;
@@ -88,13 +95,13 @@ td.timetable {
 	vertical-align : middle; 
 	text-align : center; 
 	background : #ffffff;
-	border : 1px solid #F28370;
+	border : 1px solid #FF3399;
 	padding : 5px;
 }
 
 td.heading {
 	font-size : 10pt;
-	background : #F28370;
+	background : #FF3399;
 }
 
 .smena13 {	
@@ -104,7 +111,7 @@ td.heading {
 	vertical-align : middle; 
 	text-align : center; 
 	background : #ffffff;
-	border : 1px solid #F28370;
+	border : 1px solid #FF3399;
 	padding : 5px;
 	color : BB3333;
 }
@@ -116,7 +123,7 @@ td.heading {
 	vertical-align : middle; 
 	text-align : center; 
 	background : #ffffff;
-	border : 1px solid #F28370;
+	border : 1px solid #FF3399;
 	padding : 5px;
 	color : 333399;
 }
